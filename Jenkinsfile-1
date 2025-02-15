@@ -1,5 +1,5 @@
 pipeline {
-agent { label'ansible-playbook'}
+agent { label'ansible-demo'}
   stages {
     stage('Hello') {
       steps {
