@@ -1,5 +1,5 @@
 pipeline {
-agent { label'jenkinsfile-1'}
+agent { label'ansible-playbook'}
   stages {
     stage('Hello') {
       steps {
