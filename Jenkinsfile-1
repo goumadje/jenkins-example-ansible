@@ -1,5 +1,5 @@
 pipeline {
-agent { label'ansible-demo'}
+agent { label'jenkins'}
   stages {
     stage('Hello') {
       steps {
